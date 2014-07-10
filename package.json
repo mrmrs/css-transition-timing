@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "transition-timing"
   ],
   "css-transition-timing": {
     "type": "git",
