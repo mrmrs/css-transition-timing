@@ -30,7 +30,7 @@ or download the css on github and include in your project.
 .ttf-steps { transition-timing-function: steps(4, end); }
 .ttf-i {     transition-timing-function: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ttf-e-ns { 	  transition-timing-function: ease; }
   .ttf-ei-ns {    transition-timing-function: ease-in; }
   .ttf-eo-ns {    transition-timing-function: ease-out; }
@@ -43,7 +43,7 @@ or download the css on github and include in your project.
   .ttf-i-ns {     transition-timing-function: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ttf-e-m {      transition-timing-function: ease; }
   .ttf-ei-m {     transition-timing-function: ease-in; }
   .ttf-eo-m {     transition-timing-function: ease-out; }
@@ -56,7 +56,7 @@ or download the css on github and include in your project.
   .ttf-i-m {      transition-timing-function: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ttf-e-l {      transition-timing-function: ease; }
   .ttf-ei-l {     transition-timing-function: ease-in; }
   .ttf-eo-l {     transition-timing-function: ease-out; }
