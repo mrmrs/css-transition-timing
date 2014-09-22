@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-transition-timing)
 ## File Size
 
 2.5K transition-timing.css
-2.0K transition-timing.min.css
+2.0K transition-timing.min.css 
+330B minified and gzipped
 
 ## The Code
 ```
