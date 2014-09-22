@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-transition-timing
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-transition-timing)
+
 
 ## File Size
 
+2.5K transition-timing.css
+2.0K transition-timing.min.css
 
 ## The Code
 ```
