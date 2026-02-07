@@ -14,16 +14,16 @@
 .ttf-i {     transition-timing-function: inherit; }
 
 @media screen and (min-width: 48em) {
-  .ttf-e-ns { 	  transition-timing-function: ease; }
-  .ttf-ei-ns {    transition-timing-function: ease-in; }
-  .ttf-eo-ns {    transition-timing-function: ease-out; }
-  .ttf-eio-ns {   transition-timing-function: ease-in-out; }
-  .ttf-nsin-ns {  transition-timing-function: linear; }
-  .ttf-cb-ns {    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
-  .ttf-ss-ns {    transition-timing-function: step-start; }
-  .ttf-se-ns  {   transition-timing-function: step-end; }
-  .ttf-steps-ns { transition-timing-function: steps(4, end); }
-  .ttf-i-ns {     transition-timing-function: inherit; }
+  .ttf-e-s { 	  transition-timing-function: ease; }
+  .ttf-ei-s {    transition-timing-function: ease-in; }
+  .ttf-eo-s {    transition-timing-function: ease-out; }
+  .ttf-eio-s {   transition-timing-function: ease-in-out; }
+  .ttf-sin-s {  transition-timing-function: linear; }
+  .ttf-cb-s {    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
+  .ttf-ss-s {    transition-timing-function: step-start; }
+  .ttf-se-s  {   transition-timing-function: step-end; }
+  .ttf-steps-s { transition-timing-function: steps(4, end); }
+  .ttf-i-s {     transition-timing-function: inherit; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
