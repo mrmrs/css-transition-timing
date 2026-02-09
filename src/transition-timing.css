@@ -13,7 +13,7 @@
 .ttf-steps { transition-timing-function: steps(4, end); }
 .ttf-i {     transition-timing-function: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .ttf-e-s { 	  transition-timing-function: ease; }
   .ttf-ei-s {    transition-timing-function: ease-in; }
   .ttf-eo-s {    transition-timing-function: ease-out; }
@@ -26,7 +26,7 @@
   .ttf-i-s {     transition-timing-function: inherit; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .ttf-e-m {      transition-timing-function: ease; }
   .ttf-ei-m {     transition-timing-function: ease-in; }
   .ttf-eo-m {     transition-timing-function: ease-out; }
@@ -39,7 +39,7 @@
   .ttf-i-m {      transition-timing-function: inherit; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .ttf-e-l {      transition-timing-function: ease; }
   .ttf-ei-l {     transition-timing-function: ease-in; }
   .ttf-eo-l {     transition-timing-function: ease-out; }
